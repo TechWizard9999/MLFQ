@@ -2,7 +2,7 @@
 
 A robust C++ implementation of the Multi-Level Feedback Queue scheduling algorithm, demonstrating advanced OS concepts like dynamic priority adjustment, starvation avoidance, and I/O handling.
 
-## 🚀 Features
+##  Features
 
 *   **8 Priority Queues**: Ranging from Q0 (Highest) to Q7 (Lowest).
 *   **Dynamic Time Quantum**: 
@@ -14,7 +14,7 @@ A robust C++ implementation of the Multi-Level Feedback Queue scheduling algorit
 *   **I/O Handling**: Interactive processes that yield early stay in high-priority queues (Rule 5).
 *   **True Arrival Time**: Simulates realistic process arrival (no "time travel").
 
-## 🛠️ How to Run
+##  How to Run
 
 This project includes a `Makefile` for easy compilation.
 
@@ -39,7 +39,7 @@ make
 make clean
 ```
 
-## 📊 Output
+##  Output
 
 The simulation prints a tick-by-tick trace of process execution, queue changes, and demotions. At the end, it displays a metrics report:
 
@@ -52,7 +52,7 @@ Avg Turnaround: 229 ms
 Avg Response:   4.5 ms
 ```
 
-## 🧠 Core Rules Implemented
+##  Core Rules Implemented
 
 1.  **Rule 1**: If Priority(A) > Priority(B), A runs (B doesn't).
 2.  **Rule 2**: If Priority(A) = Priority(B), they run in Round-Robin.
